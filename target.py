@@ -149,21 +149,21 @@ def menu():
     print '\x1b[1;37;40m2. Wordlist'
     print '\x1b[1;37;40m0. Exit'
     print
-    hack_pilih()
+    pilih()
 
-def hack_pilih():
-    hack = raw_input('\x1b[1;85m-\xe2\x96\xba\x1b[1;90m ')
-    if hack == '':
+def pilih():
+    zedd = raw_input('\x1b[1;85m-\xe2\x96\xba\x1b[1;90m ')
+    if zedd == '':
         print '\x1b[1;85m[!] Jangan kosong'
-        hack_pilih()
+        pilih()
         else:
-          if hack == '1':
+          if zeed == '1':
                   brute()
            else:
-            if hack == '2':
+            if zeed == '2':
                 wordlist()
             else:
-             if hack == '0':
+             if zeed == '0':
                  exit()
              else:
                  print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + hack + ' \x1b[1;91mTidak ada'
