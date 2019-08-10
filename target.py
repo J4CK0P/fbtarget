@@ -19,7 +19,7 @@ print bcolors.BOLD + ''
 print '\t   √ Facebook : Azis Wirahadi '
 print '\t   √ Wa : 085888080947 '/
 print '\t   √ Github: /J4CK0P '
-print '\t   √ Author J4CKOP
+print '\t   √ Author J4CKOP '
 
 print '' + bcolors.ENDC
 
